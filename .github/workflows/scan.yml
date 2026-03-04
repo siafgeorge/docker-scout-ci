@@ -3,6 +3,8 @@
 name: SBOM/SCA Scout
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
     inputs:
         docker_image:
