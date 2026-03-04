@@ -3,9 +3,9 @@
 name: SBOM/SCA Scout
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
-  workflow_dispatch:
     inputs:
         docker_image:
           description: 'The Docker image to scan'
