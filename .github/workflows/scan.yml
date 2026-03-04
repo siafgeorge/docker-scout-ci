@@ -8,7 +8,8 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/ollama/ollama:rocm'
+          default: 'ghcr.io/gesellix/testimage:latest'
+
 
 # env:
 #   REGISTRY: ghcr.io
