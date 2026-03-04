@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/rtedpro/proxmox:9.1.5'
+          default: 'ghcr.io/ollama/ollama:rocm'
 
 # env:
 #   REGISTRY: ghcr.io
